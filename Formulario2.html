@@ -2,63 +2,42 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Formulario 2</title>
 </head>
 <body>
-	<header><H3> CREATE A NEW ACCOUNT  <img src="https://cdn.icon-icons.com/icons2/1143/PNG/512/locklockedpadlockoutline_80765.png" border="0" width="15" height="15"></H3></header><br>
+	
+  <section>
+     <INPUT TYPE="submit" VALUE="Acceder al Formulario"> 
+  </section>
+<br>
+<section>
+     <label for="solicitud">Fecha de solicitud:</label>
+     <input type="date" id="solicitud" name="solicitud">
+  </section>  
+ <br>
 
-  <form action="/my-handling-form-page" method="post">
+ <section>
+     <label for="name">Nombre completo:</label>
+     <input type="text" id="name" name="name">
+  </section>  
+ <br>
 
-  	<div>
-  		<label><for="mail"> E-mail: </label>
-  		<input type="email" id="mail" name="user_email">
-  	</div>
-<br>
-  	<div>
-  		<label><for="mail"> Confirm E-mail: </label>
-  		<input type="email" id="mail" name="user_email">
-  	</div>
-<br>
-  	<div>
-  		<label>Country<label />
-  		<select name="Country">
-<option value="AF">Afganistán</option>
-<option value="AL">Albania</option>
-<option value="DE">Alemania</option>
+<section>
+     <label for="mail">Correo Electroníco</label>
+     <input type="email" id="mail" name="user_email">
+  </section>  
+ <br>
 
- </select>
-  	</div>
-<br>
-  	<div>
-  		<label><for="mail"> E-mail: </label>
-  		<input type="email" id="mail" name="user_email">
-  	</div>
-<br>
-    <div>
-        <Label>ZIP Code</Label>
-        <input type="text" pattern="[0-9]{5}" title="Five digit zip code" />
-    </div>
-<br>
-    <div>
-       <label>Password<label />
-       <input TYPE="password" name="password" type="text" id="password" size="30" />
-    </div>
-<br>
-    <div>
-       <label>Confirm Password<label />
-       <input TYPE="password" name="password" type="text" id="password" size="30" />
-    </div>
-
-  <br>
-    <div>
-       <label><input type="checkbox" id="cbox1" value="first_checkbox"> Yes, I agree yo the Mint.com </label>
-       <a href=”http://www.aprenderaprogramar.com” title=”Esto es un tool.tip”>Terms of Use</a>
-    </div>
-
-<br>
-    <div>
-     <INPUT TYPE="submit" VALUE="Sing Up">
-    </div>
+<section>
+     <label for="phone">Telefono</label>
+     <input type="phone" id="phone" name="phone">
+  </section>  
+ <br>
+<label for="genero">Selecione su genero</label>
+ <input type="checkbox" name="masculino" value="masculine"> masculino<br>
+  <input type="checkbox" name="femenino" value="femenino" checked> femenino<br>
+  <input type="checkbox" name="otro" value="otro" checked> otro<br>
   
+
 </body>
 </html>
